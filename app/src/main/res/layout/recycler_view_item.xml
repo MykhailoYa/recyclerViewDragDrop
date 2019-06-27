@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scheduleDayCardView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/cardview_horizontal_margin"
+        android:layout_marginRight="@dimen/cardview_horizontal_margin"
+        android:layout_marginTop="@dimen/cardview_vertical_margin"
+        android:layout_marginBottom="@dimen/cardview_vertical_margin"
+        app:cardCornerRadius="@dimen/cardview_corner_radius"
+        app:cardElevation="@dimen/cardview_elevation"
+        app:cardBackgroundColor="@color/cardBgColor">
+    <TextView
+            android:id="@+id/dataTextView"
+            android:text="@android:string/untitled"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/list_item_horizontal_padding"
+            android:paddingRight="@dimen/list_item_horizontal_padding"
+            android:minHeight="56dp"
+            android:gravity="center_vertical"/>
+</androidx.cardview.widget.CardView>
