@@ -1,4 +1,4 @@
-# RecyclerView with Drag&Drop. Includes Drag/Drop events for ViewHolder
+## RecyclerView with Drag&Drop. Includes Drag/Drop events for ViewHolder
 This project contains an example of implementing drag and drop for RecyclerView.
 
 You can also get drag and drop events in the ViewHolder to change an item as it is dragged.
